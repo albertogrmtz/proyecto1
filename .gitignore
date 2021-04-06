@@ -1,0 +1,7 @@
+/tmp #Solo ignora tmp en root
+tmp/ #Ignora todos los directorios llamados tmp
+tmp/*.txt
+!tmp/peliculas_marvel.txt
+
+todo*.*
+!listados/todo_marvel.txt
